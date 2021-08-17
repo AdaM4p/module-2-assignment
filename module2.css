@@ -3,67 +3,90 @@
 }
 section {
     float: left;
-    background-color: blueviolet;
-    border: 1px palevioletred solid;
-    margin: 5px;
-    margin-right: auto;
-    margin-left: auto;
+    background-color: rgb(145, 139, 151);
+    border: 1px rgb(0, 0, 0) solid;
+    border-width: 33%;
+    /*margin-right: auto;
+    margin-left: auto;*/
     padding: 10px;
-    width: 32.33%;
+    margin-bottom: 10px;
+    padding-top: 0%;
+    padding-right: 0%;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 33.33%;
     display: block;
     margin: 2px;
-    height: 25%;
+    
+
 }
 p {
     overflow: hidden;
+    margin-top: 35px;
+    font-family:serif;
+    font-size: large;
+    padding-right: 5px;
+    word-spacing: 0.5em;
 }
 /*code for the headings*/
 #head1 {
     background-color: crimson;
     float: right;
-    margin: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 3px;
     padding: 0%;
     height:auto;
+    border: 1px rgb(0, 0, 0) solid;
 }
 #head2 {
+    color: chartreuse;
     background-color: rgb(220, 20, 170);
     float: right;
-    margin: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
     padding: 0%;
     height:auto;
+    margin-bottom: 3px;
+    border: 1px rgb(0, 0, 0) solid;
 }
 #head3 {
     background-color: rgb(105, 31, 105);
     float: right;
-    margin: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
     padding: 0%;
     height:auto;
+    margin-bottom: 3px;
+    border: 1px rgb(0, 0, 0) solid;
 }
 h1 {
     text-align: center;
     padding: 15px;
+    margin-top: 50px;
 }
 /*code for a responsive page*/
 @media (min-width: 1200px) {
     section {
         margin: 15px;
-        margin-left: 32px;
+        margin-left: 10px;
     }
     .one {
-     width: 27%;    
+     width: 31%;  
+     margin-left: 10px;  
     }
     .two {
-        width: 27%;    
+        width: 31%;    
        }
     .three {
-        width: 27%;    
+        width: 31%;    
        }
 }
 /*code for a response to a medium screen*/
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 767px) and (max-width: 1199px) {
     section {
         margin: 20px;
-
+        margin-bottom: 1px;
     }
     .oneMedium {
        width: 45%;    
@@ -74,11 +97,14 @@ h1 {
        }
     .threeMedium {
         float: inline-start;
-        width: 98%;   
-        margin-right: 55px ; 
+        width: 98%;
+        margin-right: 50px ; 
+        margin-left: 50px;
+        margin-left: auto;
+        margin-right: auto;
        }
 }
-@media  (max-width: 767px) {
+@media  (max-width: 766px) {
     section {
         margin-right: 30px;
         float: inline-start;
